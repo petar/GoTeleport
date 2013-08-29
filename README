@@ -180,6 +180,7 @@ Proceed as follows:
 (1) Install the latest release of the >Go Language compiler (http://golang.org),
 (2) Fetch, build and install the Teleport Tool by typing in:
 
+% go get github.com/petar/GoTeleport/tele
 % go install github.com/petar/GoTeleport/tele/cmd/tele
 
 (3) Run tele to get the help screen and verify the installation was successful.
