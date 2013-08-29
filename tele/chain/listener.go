@@ -19,7 +19,7 @@ import (
 	"net"
 	"sync"
 
-	"circuit/kit/sched/limiter"
+	"github.com/petar/GoTeleport/tele/limiter"
 	"github.com/petar/GoTeleport/tele/carrier"
 	"github.com/petar/GoTeleport/tele/trace"
 )
