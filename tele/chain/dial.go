@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	carrierPkg "circuit/sys/tele/carrier"
-	"circuit/sys/tele/trace"
+	carrierPkg "github.com/petar/GoTeleport/tele/carrier"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 type dialConn struct {

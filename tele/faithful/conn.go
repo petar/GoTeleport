@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"circuit/sys/tele/chain"
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/chain"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 type Conn struct {

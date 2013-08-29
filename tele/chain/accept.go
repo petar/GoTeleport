@@ -20,7 +20,7 @@ import (
 	"net"
 	"sync"
 
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 /*

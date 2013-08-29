@@ -21,9 +21,9 @@ import (
 	"time"
 
 	_ "circuit/kit/debug/ctrlc"
-	"circuit/sys/tele/carrier"
-	"circuit/sys/tele/sandbox"
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/carrier"
+	"github.com/petar/GoTeleport/tele/sandbox"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 type testKind int

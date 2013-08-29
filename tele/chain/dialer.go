@@ -18,8 +18,8 @@ import (
 	"net"
 	"time"
 
-	"circuit/sys/tele/carrier"
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/carrier"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 // Dialer is a chunk.Dialer that establishes stitched chunk.Conns.

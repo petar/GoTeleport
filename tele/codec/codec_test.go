@@ -20,10 +20,10 @@ import (
 	"time"
 
 	_ "circuit/kit/debug/ctrlc"
-	"circuit/sys/tele/chain"
-	"circuit/sys/tele/faithful"
-	"circuit/sys/tele/sandbox"
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/chain"
+	"github.com/petar/GoTeleport/tele/faithful"
+	"github.com/petar/GoTeleport/tele/sandbox"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 type testMsg struct {

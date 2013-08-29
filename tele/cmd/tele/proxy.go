@@ -17,8 +17,8 @@ package main
 import (
 	"net"
 
-	"circuit/sys/tele/blend"
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/blend"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 type proxy struct {

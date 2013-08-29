@@ -19,8 +19,8 @@ import (
 	"net"
 	"sync"
 
-	"circuit/sys/tele/carrier"
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/carrier"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 // Addr is a sandbox address, implementing net.Addr

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"circuit/sys/tele/chain"
+	"github.com/petar/GoTeleport/tele/chain"
 )
 
 // MsgKind determines the type of packet following

@@ -20,7 +20,7 @@ import (
 	"net"
 	"time"
 
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 func NewReliableTransport(f trace.Frame) *Transport {

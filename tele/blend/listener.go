@@ -15,8 +15,8 @@
 package blend
 
 import (
-	"circuit/sys/tele/codec"
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/codec"
+	"github.com/petar/GoTeleport/tele/trace"
 	"net"
 )
 

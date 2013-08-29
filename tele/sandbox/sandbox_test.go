@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 const N = 50

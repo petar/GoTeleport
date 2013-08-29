@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 // Conn implements one net.Conn endpoint of a communication pipe.

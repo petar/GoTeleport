@@ -17,7 +17,7 @@ package codec
 import (
 	"net"
 
-	"circuit/sys/tele/faithful"
+	"github.com/petar/GoTeleport/tele/faithful"
 )
 
 type Transport struct {

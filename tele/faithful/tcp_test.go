@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	_ "circuit/kit/debug/ctrlc"
-	"circuit/sys/tele/chain"
-	"circuit/sys/tele/tcp"
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/chain"
+	"github.com/petar/GoTeleport/tele/tcp"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 func TestConnOverTCP(t *testing.T) {

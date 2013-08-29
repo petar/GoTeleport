@@ -19,10 +19,10 @@ import (
 	"net"
 	"time"
 
-	"circuit/sys/tele"
-	"circuit/sys/tele/blend"
-	"circuit/sys/tele/tcp"
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele"
+	"github.com/petar/GoTeleport/tele/blend"
+	"github.com/petar/GoTeleport/tele/tcp"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 // Server

@@ -15,7 +15,7 @@
 package codec
 
 import (
-	"circuit/sys/tele/faithful"
+	"github.com/petar/GoTeleport/tele/faithful"
 )
 
 type Conn struct {

@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 // writeCloseRace is the buffer size of the sandbox message channel, chosen so that

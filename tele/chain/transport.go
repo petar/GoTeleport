@@ -17,8 +17,8 @@ package chain
 import (
 	"net"
 
-	"circuit/sys/tele/carrier"
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/carrier"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 type Transport struct {

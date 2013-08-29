@@ -18,7 +18,7 @@ import (
 	"io"
 	"testing"
 
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 type testSeqNo SeqNo

@@ -19,8 +19,8 @@ import (
 	"net"
 	"strings"
 
-	"circuit/sys/tele/carrier"
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/carrier"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 // Transport is a carrier.Transport over TCP.

@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"circuit/sys/tele/chain"
-	"circuit/sys/tele/sandbox"
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/chain"
+	"github.com/petar/GoTeleport/tele/sandbox"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 const N = 20

@@ -15,12 +15,12 @@
 package tele
 
 import (
-	"circuit/sys/tele/blend"
-	"circuit/sys/tele/chain"
-	"circuit/sys/tele/codec"
-	"circuit/sys/tele/faithful"
-	"circuit/sys/tele/tcp"
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/blend"
+	"github.com/petar/GoTeleport/tele/chain"
+	"github.com/petar/GoTeleport/tele/codec"
+	"github.com/petar/GoTeleport/tele/faithful"
+	"github.com/petar/GoTeleport/tele/tcp"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 func NewChunkOverTCP() *blend.Transport {

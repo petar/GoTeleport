@@ -17,7 +17,7 @@ package chain
 import (
 	"sync"
 
-	"circuit/sys/tele/trace"
+	"github.com/petar/GoTeleport/tele/trace"
 )
 
 type Cascade struct {
