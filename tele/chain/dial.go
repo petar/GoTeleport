@@ -87,6 +87,7 @@ func (dl *dialLink) Link(reason error) (net.Conn, *bufio.Reader, SeqNo, error) {
 		dl.carrier = carrier
 		return dl.carrier, bufio.NewReader(carrier), dl.ndial, nil
 	}
+	panic("u")
 }
 
 func (dl *dialLink) handshake(carrier net.Conn) (err error) {

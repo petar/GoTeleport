@@ -100,4 +100,5 @@ func (al *acceptLink) Link(reason error) (net.Conn, *bufio.Reader, SeqNo, error)
 		al.Conn.frame.Printf("out-of-order redial #%d arrived while using #%d", replaceWith.SeqNo, al.seqno)
 		replaceWith.Carrier.Close()
 	}
+	panic("u")
 }
